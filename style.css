@@ -1,0 +1,128 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+  
+  header {
+    background: #09100C;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .nav-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background: transparent;
+    border: 2px solid #F9BF04 !important; /* Ensuring no override */
+    color: #F9BF04;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block; /* Ensures proper sizing */
+    text-align: center; /* Centers text */
+}
+
+.btn:hover {
+    background: #F9BF04;
+    color: #ffffff;
+    border-color: #F9BF04; /* Change border color on hover */
+}
+
+.btn-primary {
+    background: #F9BF04;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.sign-in:hover {
+    background: #e0a800; /* Slightly darker shade for hover effect */
+}
+
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #0c0c0a;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero-content .highlight {
+    color: #f5e60e; 
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
