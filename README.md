@@ -9,10 +9,8 @@
  # FED - Practical 3 Task Submission
 
 Candidate Information
-
 Name: Sanduni Rasikala
 
-Task Overview
 
 This project includes both the design and development of a homepage based on the given PDF instructions.
 
@@ -29,7 +27,6 @@ Development Languages: HTML, CSS, JavaScript
 
 
 Project Structure
-
 project-folder/
 
 │── index.html        # Main HTML file 
@@ -38,15 +35,11 @@ project-folder/
 │── README.md         # Project documentation (this file)
 
 Installation & Setup
-
 Clone the repository or extract the provided ZIP file.
-
 Open the project folder in a code editor (e.g., VS Code).
-
 If using plain HTML, open index.html in a browser.
 
 If using React:
-
 npm install   # Install dependencies
 npm start     # Run the development server
 
