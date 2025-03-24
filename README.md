@@ -10,7 +10,7 @@
 
 Candidate Information
 
-Name: Sanduni RasikalaDate of Submission: [Insert Date]
+Name: Sanduni Rasikala
 
 Task Overview
 
